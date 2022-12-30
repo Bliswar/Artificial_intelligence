@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #09111E;
+}
+
+p,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER Стилизуем навигацию в шапке сайта */
+
+.header {
+    padding: 21px 0 23px 0;
+}
+
+.row_header {
+    display: flex;
+    align-items: center;
+}
+
+.logo_items {
+    display: flex;
+    align-items: center;
+}
+
+.logo_text {
+    padding-left: 15px;
+
+    font-weight: 600;
+    font-size: 22.5455px;
+    line-height: 31px;
+
+    color: #3A68B8;
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.nav_link:hover {
+    color: #3A68B8;
+}
+
+.btn_header {
+    text-align: center;
+}
+
+
+/* HEADER Стилизуем первый блок сайта */
