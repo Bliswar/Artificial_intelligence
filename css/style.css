@@ -14,7 +14,16 @@ img {
 }
 
 a {
+    color: #FFFFFF;
     text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* HEADER Стилизуем навигацию в шапке сайта */
@@ -68,3 +77,282 @@ a {
 
 
 /* HEADER Стилизуем первый блок сайта */
+
+/* styling the first block */
+
+.row_items {
+    padding-top: 49px;
+
+    display: flex;
+    align-items: center;
+}
+
+.sup_title {
+    padding-bottom: 10px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+
+    text-transform: uppercase;
+
+    color: #3A68B8;
+}
+
+h1.title {
+    padding-bottom: 40px;
+
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+}
+
+.sub_title_text {
+    padding-bottom: 50px;
+    max-width: 558px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.get_started {
+    width: 171px;
+    height: 57px;
+    left: 387px;
+    top: 618px;
+
+    background: #3A68B8;
+    border-radius: 5px;
+}
+
+.watch_video {
+    width: 217px;
+    height: 57px;
+    left: 578px;
+    top: 618px;
+
+    background: #3A68B8;
+    border-radius: 5px;
+}
+
+a.get_started {
+    padding: 15px 30px 15px 30px;
+    color: #FFFFFF;
+}
+
+a.watch_video {
+    margin-left: 20px;
+    padding: 15px 30px 15px 30px;
+    color: #FFFFFF;
+}
+
+/* styling the clients block */
+
+.clients_items {
+    padding: 89px 0 89px 0;
+}
+
+/* styling the brain block */
+
+.brain_items {
+    padding: 110px 0 150px 0;
+    display: flex;
+    align-items: center;
+}
+
+.brain_title {
+    padding-bottom: 30px;
+
+    max-width: 500px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+}
+
+.brain_text {
+    padding-bottom: 50px;
+
+    max-width: 460px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.brain_btn {
+    padding: 15px 30px 15px 30px;
+
+    width: 150px;
+    height: 52px;
+    left: 1049px;
+    top: 1600px;
+
+    background: #3A68B8;
+    border-radius: 5px;
+}
+
+/* styling the advantages block */
+
+.advantages_items {
+    padding-bottom: 50px;
+}
+
+.advantages_item {
+    margin: 0 5px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: #020A18;
+}
+
+.advantages_item:first-child {
+    padding-top: 65px;
+}
+
+.advantages_title {
+    padding: 20px 0 15px 0;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 125%;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.advantages_text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.dots_items {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.dots_img {
+    padding-right: 10px;
+}
+
+.dots_img:last-child {
+    padding-right: 0;
+}
+
+/* styling the reviews block */
+
+.reviews {
+    padding: 120px 0 170px 0;
+}
+
+.reviews_items {
+    display: flex;
+    align-items: center;
+}
+
+.reviews_title {
+    padding-bottom: 40px;
+
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+}
+
+.reviews_text {
+    padding-bottom: 20px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.reviews_text:last-child {
+    padding-bottom: 0;
+}
+
+.reviews_img {
+    max-width: 100%;
+}
+
+/* styling the footer */
+
+.column_items {
+    display: flex;
+}
+
+.footer_title {
+    padding-bottom: 9px;
+
+    font-weight: 600;
+    font-size: 15.9627px;
+    line-height: 22px;
+
+    color: #3A68B8;
+}
+
+.footer_text {
+    padding-bottom: 30px;
+
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.email_icon {
+    padding-right: 9px;
+}
+
+.column_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+li.footer_nav_item {
+    padding-bottom: 20px;
+}
+
+li.footer_nav_item:last-child {
+    padding-bottom: 0;
+}
+
+.footer_nav_link {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
